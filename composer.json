@@ -1,7 +1,7 @@
 {
-    "name": "jrean/laravel-user-verification",
-    "description": "User Email Verification For Laravel 5.*",
-    "keywords": ["laravel", "framework", "user verification", "email verification", "user activation", "email activation"],
+    "name": "jrean/laravel-supercollege",
+    "description": "SuperCollege API wrapper for Laravel 5.*",
+    "keywords": ["laravel", "framework", "supercollege", "scholarships", "scholarship", "school", "schools"],
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Jrean\\UserVerification\\": "src/"
+            "Jrean\\SuperCollege\\": "src/"
         }
     },
     "config": {
@@ -40,10 +40,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Jrean\\UserVerification\\UserVerificationServiceProvider"
+                "Jrean\\SuperCollege\\SuperCollegeServiceProvider"
             ],
             "aliases": {
-                "UserVerification": "Jrean\\UserVerification\\Facades\\UserVerification"
+                "SuperCollege": "Jrean\\SuperCollege\\Facades\\SuperCollege"
             }
         }
     }
