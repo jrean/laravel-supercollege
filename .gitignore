@@ -1,0 +1,7 @@
+.ctags
+tags
+vendor
+composer.lock
+phpunit.xml
+.DS_Store
+.phpcd
