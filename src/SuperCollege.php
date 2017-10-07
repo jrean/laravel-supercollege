@@ -242,6 +242,19 @@ class SuperCollege
     }
 
     /**
+     * Get scholarships by params.
+     *
+     * @param  array  $params
+     * @return \Illuminate\Support\Collection
+     */
+    public function getByParams(array $params)
+    {
+        $params = array_merge($this->getParams(), $params);
+
+        return $this->getScholarships($params);
+    }
+
+    /**
      * Get scholarships by major.
      *
      * @param  array  $id
