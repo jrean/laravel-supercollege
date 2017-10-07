@@ -1,7 +1,7 @@
 {
     "name": "jrean/laravel-supercollege",
     "description": "SuperCollege API wrapper for Laravel 5.*",
-    "keywords": ["laravel", "framework", "supercollege", "scholarships", "scholarship", "school", "schools"],
+    "keywords": ["laravel", "framework", "supercollege", "scholarships", "scholarship", "school", "schools", "student", "students"],
     "license": "MIT",
     "authors": [
         {
