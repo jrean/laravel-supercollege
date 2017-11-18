@@ -51,4 +51,4 @@ php artisan vendor:publish --provider="Jrean\SuperCollege\SuperCollegeServicePro
 
 ## LICENSE
 
-Laravel User Verification is licensed under [The MIT License (MIT)](LICENSE).
+Laravel Supercollege is licensed under [The MIT License (MIT)](LICENSE).
